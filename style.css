@@ -2,6 +2,7 @@
 
 body{
     background-color: #023020;
+    background-image: linear-gradient(to right,#023020, rgba(0, 0, 0, 0.588));
     text-align: center;
     color: #dbdbdb;
     margin: 30px;
@@ -19,6 +20,7 @@ body{
     text-transform: none;
     text-indent: 0px;
     text-decoration: none;
+    
   }
 img{
     height: 200px;  
@@ -37,4 +39,12 @@ img:hover{
     text-align: left;
     border: 1px solid white;
     
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    opacity: 0.5;
 }
